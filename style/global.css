@@ -18,7 +18,9 @@
     --Blue-950:#052C3B;
     --Blue-800:#19536C;
     --red-400:#FE7766;
+    --red-400transp:#fda59a;
     --yellow-500:#FAD400;
+    --yellow-500transp:#f9e366;
     --font-family: "Fraunces", serif;
     --font-family2: "Barlow", sans-serif;
 
@@ -26,13 +28,13 @@
     --txt-2: 700 24px/125% var(--font-family);
     --txt-3: 700 40px/125% var(--font-family);
     --txt-4: 800 38px/125% var(--font-family);
-    --txt-5: 700 28px/125% var(--font-family);
+    --txt-5: 700 32px/125% var(--font-family);
     --txt-6: 700 20px/125% var(--font-family);
     --txt-7: 700 18px/125% var(--font-family);
     --txt-8: 700 15px/165% var(--font-family);
     --txt-9: 700 20px/125% var(--font-family2);
     --txt-10: 500 18px/165% var(--font-family2);
-    --txt11: 700 16px/170% var(--font-family2);
+    --txt-11: 500 16px/170% var(--font-family2);
     --txt-12: 700 14px/180% var(--font-family2);
 }
 

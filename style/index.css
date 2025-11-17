@@ -19,9 +19,7 @@
 .learnMorePatter{
     font: var(--txt-8);
     color: var(--grey-950);
-    text-decoration: none;
-    
-
+    text-decoration: none;    
 }
 
 
@@ -99,7 +97,6 @@ nav{
 }
 
 .colorsLearnMore{
-    /* border: 1px solid red; */
     display: flex;
     position: relative;
     justify-content: center;
@@ -110,13 +107,86 @@ nav{
 .colorBoxBrand{
     height: 10px;
     border-radius: 2rem;
-    background-color: var(--yellow-500);
+    background-color: var(--yellow-500transp);
     width: 100%;
     position: absolute;
     bottom: 2px;
     z-index: -1;
+    min-width: 8rem;
     max-width: 8rem;
+}
 
+
+/* ===============standOutSection============ */
+
+.standOutImageContainer{
+    border: 1px solid white;
+    height: 40vh;
+    background-image: url(../assets/mobile/image-stand-out.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerTxtStandOutS{
+    /* border: 2px solid rgb(3, 134, 18); */
+    height: 60vh;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorsLearnMore{
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+
+}
+
+.colorBoxStandOut{
+    height: 10px;
+    border-radius: 2rem;
+    background-color: var(--red-400transp);
+    width: 100%;
+    position: absolute;
+    bottom: 2px;
+    z-index: -1;
+    min-width: 8rem;
+    max-width: 8rem;
+}
+
+/* =================graphicDesignSection========== */
+
+.graphicDesignSection{
+    /* border: 2px solid rgb(255, 3, 171); */
+    height: 100vh;
+    background-image: url(../assets/mobile/image-graphic-design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.containerTxtDesign{
+    /* border: 1px solid grey; */
+    position: absolute;
+    bottom: 3.5rem;
+    padding: 0rem 1rem;
+    text-align: center;
+}
+
+.containerTxtDesign h2{
+    font: var(--txt-5);
+    color: var(--green-800);
+    padding-bottom: 2rem;
+}
+
+.containerTxtDesign p{
+    font: var(--txt-11);
+    color: var(--green-600);
 
 }
 
