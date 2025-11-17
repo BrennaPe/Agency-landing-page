@@ -190,3 +190,34 @@ nav{
 
 }
 
+/* =================containerTxtDesign============ */
+
+.photographySection{
+    /* border: 2px solid rgb(255, 3, 171); */
+    height: 100vh;
+    background-image: url(../assets/mobile/image-photography.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.containerTxtphotog{
+    /* border: 1px solid grey; */
+    position: absolute;
+    bottom: 3.5rem;
+    padding: 0rem 1rem;
+    text-align: center;
+}
+
+.containerTxtphotog h2{
+    font: var(--txt-5);
+    color: var(--blue-950);
+    padding-bottom: 2rem;
+}
+
+.containerTxtphotog p{
+    font: var(--txt-11);
+    color: var(--blue-800);
+
+}
