@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1.5rem ;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+
+.logoHeader{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.headerNavDeskTop{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.headerNavDeskTop a{
+    text-decoration: none;
+    font: var(--txt-10);
+    color: white;
+}
+
+.contactDeskTop{
+  border: 1px solid red;
+}
+
+.iconHamburguer{
+    display: none;
+}
+nav{
+    display: flex;
+}
