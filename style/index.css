@@ -67,7 +67,7 @@ nav{
 }
 
 .orangeImageContainer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100vh;
     background-image: url(../assets/mobile/image-header.jpg);
     background-size: cover;
