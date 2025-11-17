@@ -270,3 +270,78 @@ nav{
     text-align: center;
 
 }
+
+/* ==========lastImages BEFORE FOOTER=========== */
+
+.lastImages{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 23.5rem;
+    margin-top: 3.5rem;
+    /* border: 1px solid red; */
+}
+
+.bottlesImageContainer{
+    background-image: url(../assets/mobile/image-gallery-milkbottles.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.orangePlateImageContainer{
+    background-image: url(../assets/mobile/image-gallery-orange.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}          
+
+.coneImageContainer{
+    background-image: url(../assets/mobile/image-gallery-cone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sugarImageContainer{
+    background-image: url(../assets/mobile/image-gallery-sugar-cubes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* =============FOOTER============ */
+
+footer{
+    background-color: var(--green-300);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoFooter{
+    padding-top: 4.5rem;
+    /* border: 1px solid red; */
+}
+
+.navFooter ul{
+    list-style: none;
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center;
+    width: 100%;
+    margin: 2.5rem 0rem 5rem 0rem;
+}
+
+.navFooter ul a{
+    text-decoration: none;
+    font:var(--txt-10);
+    color: var(--green-500);
+}
+
+.socials{
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 5rem;
+}
