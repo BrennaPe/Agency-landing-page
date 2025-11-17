@@ -1,2 +1,122 @@
 @import url(global.css);
 
+/* ===========utility========== */
+
+.patter-1-h2-brandSection{
+    font: var(--txt-4);
+    color: var(--grey-950);
+    text-align: center;
+}
+
+.patter-1-p-brandSection{
+    font: var(--txt-10);
+    color: var(--grey-550);
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.learnMorePatter{
+    font: var(--txt-8);
+    color: var(--grey-950);
+    text-decoration: none;
+    
+
+}
+
+
+/* ================MOBILE FIRST================ */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1.5rem 5.5rem 1.5rem;
+    position: absolute;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+
+.headerNavMobile{
+    display: none;
+}
+nav{
+    display: flex;
+}
+
+/* ===================MAIN============== */
+.presentationSection{
+    font: var(--txt-2);
+    position: absolute;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid rgb(255, 25, 0); */
+
+
+}
+
+.presentationSection h1{
+    line-height: 3.5rem;
+    letter-spacing: .2rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    color: white;
+}
+
+.arrowDown{
+    cursor: pointer;
+    
+}
+
+.orangeImageContainer{
+    border: 1px solid red;
+    height: 100vh;
+    background-image: url(../assets/mobile/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ===============BRAND SECTION============ */
+
+.eggImageContainer{
+    border: 1px solid white;
+    height: 40vh;
+    background-image: url(../assets/mobile/image-transform.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerTxtBrandS{
+    /* border: 2px solid rgb(3, 134, 18); */
+    height: 60vh;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorsLearnMore{
+    /* border: 1px solid red; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+
+}
+
+.colorBoxBrand{
+    height: 10px;
+    border-radius: 2rem;
+    background-color: var(--yellow-500);
+    width: 100%;
+    position: absolute;
+    bottom: 2px;
+    z-index: -1;
+    max-width: 8rem;
+
+
+}
+

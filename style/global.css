@@ -11,10 +11,10 @@
     --green-600:#3E7467;
     --green-500:#458D7E;
     --green-300:#90D4C6;
-    --Grey-950:#24303E;
-    --Grey-600:#5B636D;
-    --Grey-550:#808397;
-    --Grey-400:#A7AAAD;
+    --grey-950:#24303E;
+    --grey-600:#5B636D;
+    --grey-550:#808397;
+    --grey-400:#A7AAAD;
     --Blue-950:#052C3B;
     --Blue-800:#19536C;
     --red-400:#FE7766;
@@ -23,20 +23,22 @@
     --font-family2: "Barlow", sans-serif;
 
     --txt-1: 800 56px/125% var(--font-family);
-    --txt-2: 800 42px/125% var(--font-family);
-    --txt-3: 800 40px/125% var(--font-family);
-    --txt-4: 800 32px/125% var(--font-family);
-    --txt-5: 800 28px/125% var(--font-family);
-    --txt-6: 800 20px/125% var(--font-family);
-    --txt-7: 800 18px/125% var(--font-family);
-    --txt-8: 800 15px/165% var(--font-family);
-    --txt-9: 800 20px/125% var(--font-family2);
-    --txt-10: 800 18px/165% var(--font-family2);
-    --txt11: 800 16px/170% var(--font-family2);
-    --txt-12: 800 14px/180% var(--font-family2);
+    --txt-2: 700 24px/125% var(--font-family);
+    --txt-3: 700 40px/125% var(--font-family);
+    --txt-4: 800 38px/125% var(--font-family);
+    --txt-5: 700 28px/125% var(--font-family);
+    --txt-6: 700 20px/125% var(--font-family);
+    --txt-7: 700 18px/125% var(--font-family);
+    --txt-8: 700 15px/165% var(--font-family);
+    --txt-9: 700 20px/125% var(--font-family2);
+    --txt-10: 500 18px/165% var(--font-family2);
+    --txt11: 700 16px/170% var(--font-family2);
+    --txt-12: 700 14px/180% var(--font-family2);
 }
 
 body{
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
+
 }
