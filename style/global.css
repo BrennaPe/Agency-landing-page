@@ -34,8 +34,8 @@
     --txt-8: 700 15px/165% var(--font-family);
     --txt-9: 700 20px/125% var(--font-family2);
     --txt-10: 500 18px/165% var(--font-family2);
-    --txt-11: 500 16px/170% var(--font-family2);
-    --txt-12: 700 14px/180% var(--font-family2);
+    --txt-11: 500 18px/170% var(--font-family2);
+    --txt-12: 500 14px/180% var(--font-family2);
 }
 
 body{
