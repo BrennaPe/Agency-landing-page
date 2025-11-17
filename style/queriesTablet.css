@@ -1,0 +1,104 @@
+@media (min-width: 768px) {
+
+    /* =============MAIN============ */
+    .presentationSection h1{
+        max-width: 25rem;
+    }
+
+/* ===============BRAND SECTION============ */
+
+    .eggImageContainer{
+        height: 60vh;
+    }
+
+    .containerTxtBrandS{
+        /* border: 2px solid rgb(3, 134, 18); */
+        height: 40vh;
+        padding: 4rem 10rem;
+    }
+
+    .containerTxtBrandS h2{
+        /* border: 1px solid red; */
+        max-width: 20rem;
+    }
+
+
+
+/* ===============standOutSection============ */
+
+    .standOutImageContainer{
+        height: 60vh;
+    }
+
+    .containerTxtStandOutS{
+        /* border: 2px solid rgb(3, 134, 18); */
+        height: 40vh;
+        padding: 4rem 10rem;
+    }
+
+    .containerTxtStandOutS h2{
+        /* border: 1px solid red; */
+        max-width: 20rem;
+    }
+
+
+/* =================graphicDesignSection========== */
+
+.graphicDesignSection{
+    height: 70vh;
+    background-image: url(../assets/tablet/image-graphic-design-tablet.png);
+}
+
+.containerTxtDesign{
+    padding: 0rem 13.5rem;
+}
+
+.containerTxtDesign p{
+    font: var(--txt-11);
+    color: var(--green-600);
+
+}
+
+/* =============containerPHOTOGRAPHY============ */
+
+.photographySection{
+    height: 70vh;
+    background-image: url(../assets/desktop/image-photography.jpg);
+}
+
+.containerTxtphotog{
+    padding: 0rem 15rem;
+}
+
+/* =====================testimonials=========== */
+.paragTestimonials{
+    padding: 0rem 5.25rem;
+    /* border: 1px solid red; */
+}
+
+/* ==========lastImages BEFORE FOOTER=========== */
+
+
+.lastImages{
+    height: 48rem;
+    /* border: 1px solid red; */
+}
+
+
+.bottlesImageContainer{
+    background-image: url(../assets/tablet/image-gallery-milkbottlesTABLET.png);
+    
+}
+.orangePlateImageContainer{
+    background-image: url(../assets/tablet/image-gallery-orange-tablet.png);
+}          
+
+.coneImageContainer{
+    background-image: url(../assets/tablet/image-gallery-cone-tablet.png);
+}
+
+.sugarImageContainer{
+    background-image: url(../assets/tablet/image-gallery-sugar-cubes-tablet.png);
+}
+
+}
