@@ -56,8 +56,6 @@ nav{
     align-items: center;
     /* border: 1px solid rgb(255, 25, 0); */
     width: 100%;
-
-
 }
 
 .presentationSection h1{
@@ -70,7 +68,6 @@ nav{
 
 .arrowDown{
     cursor: pointer;
-    
 }
 
 .orangeImageContainer{
@@ -105,9 +102,7 @@ nav{
 .colorsLearnMore{
     display: flex;
     position: relative;
-    justify-content: center;
-
-
+    justify-content: center; 
 }
 
 .colorBoxBrand{

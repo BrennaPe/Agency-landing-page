@@ -1,11 +1,16 @@
-header{
+@media (min-width: 1024px) {
+    header{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 1.5rem ;
+    padding: 2.5rem 2.5rem ;
     position: absolute;
     align-items: center;
     width: 100%;
     /* border: 1px solid white; */
+}
+
+nav{
+    display: flex;
 }
 
 .logoHeader{
@@ -26,13 +31,50 @@ header{
     color: white;
 }
 
-.contactDeskTop{
-  border: 1px solid red;
+.contactNav a{
+    color: var(--grey-950);
+    background-color: white;
+    font: var(--txt-8);
+    padding: 1rem 1.7rem;
+    border-radius: 40px;
 }
 
 .iconHamburguer{
     display: none;
 }
-nav{
-    display: flex;
+
+/* ===================MAIN==============  */
+.orangeImageContainer{
+    /* border: 1px solid red; */
+    background-image: url(../assets/desktop/image-header.jpg);
 }
+
+/* ============MAIN info containerts ===========  */
+    .mainInfoContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3,600px);
+    }
+
+    .eggImageContainer{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .containerTxtBrandS{
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border: 1px solid red;
+
+    }
+
+    .standOutImageContainer{
+        grid-column: 2/3;
+        grid-row: 2/3;  
+    }
+
+}
+
+
+
+
