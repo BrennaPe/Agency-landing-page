@@ -55,24 +55,81 @@ nav{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3,600px);
     }
+/* ===============BRAND SECTION============ */
 
     .eggImageContainer{
         padding-bottom: 0;
         margin-bottom: 0;
+        height: auto;
     }
 
     .containerTxtBrandS{
         padding-bottom: 0;
         margin-bottom: 0;
-        border: 1px solid red;
-
+        min-height: 600px;
+        padding: 0rem 2rem;
     }
+/* ===============standOutSection============ */
 
     .standOutImageContainer{
         grid-column: 2/3;
         grid-row: 2/3;  
+        height: auto;
     }
 
+    .containerTxtStandOutS{
+    /* border: 2px solid rgb(3, 134, 18); */
+    min-height: 600px;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(51, 255, 0);
+}
+
+/* =================graphicDesignSection========== */
+
+.graphicDesignSection{
+    /* border: 2px solid rgb(255, 3, 171); */
+    max-height: 600px;
+    background-image: url(../assets/desktop/image-graphic-design.jpg);
+
+}
+
+.containerTxtDesign{
+    padding: 0rem 5rem;
+
+}
+/* =============containerPHOTOGRAPHY============ */
+
+.photographySection{
+    /* border: 2px solid rgb(255, 3, 171); */
+    max-height: 600px;
+    background-image: url(../assets/desktop/image-photography.jpg);
+}
+
+.containerTxtphotog{
+    padding: 0rem 8rem;
+
+}
+
+/* =====================testimonials=========== */
+.containerTest{
+    display: flex;
+    justify-content: center;
+}
+
+/* ==========lastImages BEFORE FOOTER=========== */
+
+
+.lastImages{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 23rem;
+    margin-top: 3.5rem;
+    /* border: 1px solid red; */
+}
 }
 
 
