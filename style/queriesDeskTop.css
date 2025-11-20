@@ -55,6 +55,8 @@ nav{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3,600px);
     }
+
+    
 /* ===============BRAND SECTION============ */
 
     .eggImageContainer{
@@ -69,6 +71,7 @@ nav{
         min-height: 600px;
         padding: 0rem 2rem;
     }
+
 /* ===============standOutSection============ */
 
     .standOutImageContainer{

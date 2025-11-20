@@ -1,5 +1,20 @@
 @media (min-width: 768px) {
 
+    header nav{
+        border: 2px solid red;
+        position: relative;
+    }
+    nav .headerNavTablet{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        display: none;
+        top: 200%;
+        right: 24px;
+        border: 2px solid rgb(0, 255, 51);
+
+    }
+
     /* =============MAIN============ */
     .presentationSection h1{
         max-width: 25rem;
