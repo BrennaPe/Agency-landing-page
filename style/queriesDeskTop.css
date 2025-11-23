@@ -1,5 +1,60 @@
 @media (min-width: 1024px) {
 /* ==============HEADER======== */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1.5rem ;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    border: 1px solid white;
+}
+.iconHamburguer{
+    display: none;
+}
+
+header nav{
+    all: revert;
+}
+
+.headerNav{
+    all: revert;
+
+}
+
+.headerNav a{
+    all: revert;
+
+}
+
+.contactNav{
+    all: revert;
+    
+}
+.contactNav a{
+    font: var(--txt-6);
+    color: var(--grey-950);   
+}
+
+.triangle{
+    display: none;
+}
+
+
+
+
+        /* <nav>  
+            <ul class="headerNav" id="navOpt">
+                <li> <div class="triangle"></div></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li class="contactNav"><a href="#">Contact</a></li>
+
+            </ul>
+            <img onclick="navOptions()" src="assets/icon-hamburger.svg" alt="Icon menu hamburguer" class="iconHamburguer" >
+        </nav> */
+
 
 
 
