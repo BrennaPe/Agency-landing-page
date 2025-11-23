@@ -1,6 +1,11 @@
 @media (min-width: 768px) {
+ /* ============HEADER=========== */
 
-    /* =============MAIN============ */
+ 
+
+
+
+ /* =============MAIN============ */
     .presentationSection h1{
         max-width: 25rem;
     }
