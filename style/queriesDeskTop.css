@@ -1,13 +1,13 @@
 @media (min-width: 1024px) {
 
 
-/* ===================MAIN==============  */
+/* ===================MAIN==============*/
 .orangeImageContainer{
     /* border: 1px solid red; */
     background-image: url(../assets/desktop/image-header.jpg);
 }
 
-/* ============MAIN info containerts ===========  */
+/* =========MAIN info containerts ===========  */
     .mainInfoContainer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -76,9 +76,14 @@
 }
 
 /* =====================testimonials=========== */
-.containerTest{
+.containerText{
     display: flex;
     justify-content: center;
+}
+
+.paragTestimonials{
+    padding: 1rem;
+    width: fit-content;
 }
 
 /* ==========lastImages BEFORE FOOTER=========== */
