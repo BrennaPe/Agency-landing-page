@@ -7,9 +7,12 @@ header{
     position: absolute;
     align-items: center;
     width: 100%;
-    border: 1px solid white;
 }
 .iconHamburguer{
+    display: none;
+}
+
+.triangle{
     display: none;
 }
 
@@ -19,11 +22,16 @@ header nav{
 
 .headerNav{
     all: revert;
+    list-style: none;
+    gap: 42px;
 
 }
 
 .headerNav a{
     all: revert;
+    text-decoration: none;
+    font: var(--txt-10);
+    color: white;
 
 }
 
@@ -34,26 +42,12 @@ header nav{
 .contactNav a{
     font: var(--txt-6);
     color: var(--grey-950);   
+    color: white;
+    padding: 15.5px 27.5px;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 50px;
 }
 
-.triangle{
-    display: none;
-}
-
-
-
-
-        /* <nav>  
-            <ul class="headerNav" id="navOpt">
-                <li> <div class="triangle"></div></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li class="contactNav"><a href="#">Contact</a></li>
-
-            </ul>
-            <img onclick="navOptions()" src="assets/icon-hamburger.svg" alt="Icon menu hamburguer" class="iconHamburguer" >
-        </nav> */
 
 
 
