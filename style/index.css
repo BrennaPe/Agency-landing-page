@@ -51,6 +51,7 @@ header{
     z-index: 1;
     list-style: none;
     background: white;
+    display: none;
 }
 
 .headerNav a{

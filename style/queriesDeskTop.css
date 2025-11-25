@@ -22,6 +22,7 @@ header nav{
 
 .headerNav{
     all: revert;
+    display: flex;
     list-style: none;
     gap: 42px;
 
