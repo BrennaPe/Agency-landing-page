@@ -1,4 +1,4 @@
-
+/* MOBILE FIRST */
 /* ===========utility========== */
 
 .patter-1-h2-brandSection{
@@ -171,14 +171,6 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.colorsLearnMore{
-    display: flex;
-    position: relative;
-    justify-content: center;
-
-
 }
 
 .colorBoxStandOut{
